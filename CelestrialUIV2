@@ -1,6 +1,8 @@
 --[[
-Hi
-Celestrial Is Kinda Hot - Part 9/16/2021 9:35PM
+ ____ _  _  __  ____  __  _  _    __   __ ____    _  _ ____ 
+/ ___) )( \/ _\(    \/  \/ )( \  (  ) (  |  _ \  / )( (___ \
+\___ ) __ (    \) D (  O ) /\ /  / (_/\)( ) _ (  \ \/ // __/
+(____|_)(_|_/\_(____/\__/(_/\_)  \____(__|____/   \__/(____)
 
 ]]--
 
@@ -205,7 +207,7 @@ InfoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 InfoFrame.BackgroundTransparency = 1.000
 InfoFrame.Size = UDim2.new(0.300000012, 0, 1, 0)
 InfoFrame.Size = UDim2.new(0, InfoFrame.AbsoluteSize.X, InfoFrame.Size.Y.Scale, 0)
-InfoFrame.Image = "rbxassetid://7493356226"
+InfoFrame.Image = "rbxassetid://3570695787"
 InfoFrame.ImageColor3 = Color3.fromRGB(25, 25, 25)
 InfoFrame.ImageTransparency = 0.100
 InfoFrame.ScaleType = Enum.ScaleType.Slice
@@ -413,7 +415,7 @@ function Library:CreateTab(Name)
 	Tab.Parent = TabsControl
 	Tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Tab.ClipsDescendants = true
-	Tab.Size = UDim2.new(1, 0, 0, 40)
+	Tab.Size = UDim2.new(0.9, 0, 0, 40)
 	Tab.AutoButtonColor = false
 	
 	Title.Name = "Title"
@@ -575,7 +577,7 @@ function Library:CreateTab(Name)
 		Dropdown.Name = "Dropdown"
 		Dropdown.Parent = TabFrame
 		Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Dropdown.Size = UDim2.new(0, 400, 0, 400)
+		Dropdown.Size = UDim2.new(0, 100, 0, 100)
 		
 		Arrow.Name = "Arrow"
 		Arrow.Parent = Dropdown
