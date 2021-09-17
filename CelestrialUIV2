@@ -575,7 +575,7 @@ function Library:CreateTab(Name)
 		Dropdown.Name = "Dropdown"
 		Dropdown.Parent = TabFrame
 		Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Dropdown.Size = UDim2.new(0, 100, 0, 100)
+		Dropdown.Size = UDim2.new(0, 400, 0, 400)
 		
 		Arrow.Name = "Arrow"
 		Arrow.Parent = Dropdown
