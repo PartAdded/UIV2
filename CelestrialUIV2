@@ -413,7 +413,7 @@ function Library:CreateTab(Name)
 	Tab.Parent = TabsControl
 	Tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Tab.ClipsDescendants = true
-	Tab.Size = UDim2.new(0.9, 0, 0, 40)
+	Tab.Size = UDim2.new(1, 0, 0, 40)
 	Tab.AutoButtonColor = false
 	
 	Title.Name = "Title"
